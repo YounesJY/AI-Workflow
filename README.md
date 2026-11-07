@@ -13,7 +13,7 @@ reformatted into Q&A structure and reviewed manually before commit.
 | # | Doc | Topic |
 |---|---|---|
 | 01 | [Claude Code](docs/01-claude-code.md) | Install, sessions, CLAUDE.md, permissions, commands |
-| 02 | [OpenCode](docs/02-opencode.md) | Harness vs provider vs model, plan/build modes, sessions, primary/subagents |
+| 02 | [OpenCode](docs/02-opencode.md) | Harness vs provider vs model, Build/Plan agents, sessions, primary/subagents |
 | 03 | [MCP Servers](docs/03-mcp-servers.md) | What MCP is, why it exists, context cost |
 | 04 | [Skills](docs/04-skills.md) | SKILL.md structure, descriptions, references, storage |
 | 05 | [Subagents](docs/05-subagents.md) | Context saving, parallel spawning, review patterns |
@@ -41,7 +41,7 @@ AI-Workflow/
 - Tables for comparisons
 - End every doc with `## 📌 Summary`
 - Typos fixed, facts preserved, wrong claims flagged with `> ⚠️ Verify:`
-- One file per agent session — context rot is real
+- One file per agent session by default; batch conversion only when explicitly requested
 
 Full rules in [`AGENT.md`](AGENT.md).
 
@@ -51,13 +51,13 @@ Full rules in [`AGENT.md`](AGENT.md).
 
 | Doc | Status |
 |---|---|
-| 01 Claude Code | 🟡 In progress |
-| 02 OpenCode | ⬜ Pending |
-| 03 MCP Servers | ⬜ Pending |
-| 04 Skills | ⬜ Pending |
-| 05 Subagents | ⬜ Pending |
-| 06 Context Management | ⬜ Pending |
-| 07 Agent Misuse | ⬜ Pending |
+| 01 Claude Code | ✅ Reviewed and committed |
+| 02 OpenCode | ✅ Reviewed and committed |
+| 03 MCP Servers | ✅ Reviewed and committed |
+| 04 Skills | ✅ Reviewed and committed |
+| 05 Subagents | ✅ Reviewed and committed |
+| 06 Context Management | ✅ Reviewed and committed |
+| 07 Agent Misuse | ✅ Reviewed and committed |
 
 Legend: ⬜ pending · 🟡 in progress · ✅ reviewed and committed
 
