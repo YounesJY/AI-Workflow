@@ -3,8 +3,9 @@
 Personal learning notes on AI agents, agentic workflows, CLI coding agents,
 MCP, skills, subagents, and context management.
 
-Source material is raw course notes. Everything in `docs/` has been
-reformatted into Q&A structure and reviewed manually before commit.
+The sources are raw course notes. I restructured all seven into Q&A format
+under `docs/`, checked the claims against official docs, and reviewed each
+one before committing.
 
 ---
 
@@ -24,49 +25,39 @@ reformatted into Q&A structure and reviewed manually before commit.
 
 ## 2. Repo layout
 
+```text
 AI-Workflow/
 ├── AGENT.md        # rules the agent follows in this repo
 ├── README.md
 ├── docs/           # reviewed, formatted notes
 └── raw/            # original course notes, untouched
+```
 
-`raw/` is read-only source. `docs/` is what gets reviewed and committed.
+`raw/` holds the original notes and stays untouched. `docs/` is what I
+review and commit.
 
 ---
 
 ## 3. Conventions
 
 - Numbered sections (`## 1.`, `### 1.1`)
+- Question headings (`### 1.1 How do I ...?`)
 - Bold lead-ins for bullets (`**Term.** Explanation`)
 - Tables for comparisons
+- Fenced code blocks with language tags
 - End every doc with `## 📌 Summary`
-- Typos fixed, facts preserved, wrong claims flagged with `> ⚠️ Verify:`
-- One file per agent session by default; batch conversion only when explicitly requested
+- Fix typos, preserve facts, and flag wrong or unverified claims with `> ⚠️ Verify:`
+- One file per agent session by default; batch conversion only when requested
 
 Full rules in [`AGENT.md`](AGENT.md).
 
 ---
 
-## 4. Status
+## 4. Why this repo exists
 
-| Doc | Status |
-|---|---|
-| 01 Claude Code | ✅ Reviewed and committed |
-| 02 OpenCode | ✅ Reviewed and committed |
-| 03 MCP Servers | ✅ Reviewed and committed |
-| 04 Skills | ✅ Reviewed and committed |
-| 05 Subagents | ✅ Reviewed and committed |
-| 06 Context Management | ✅ Reviewed and committed |
-| 07 Agent Misuse | ✅ Reviewed and committed |
+I'm a CS student learning how agentic tooling works under the hood. These
+notes come from raw course material, restructured, corrected where needed,
+and kept as a reference.
 
-Legend: ⬜ pending · 🟡 in progress · ✅ reviewed and committed
-
----
-
-## 5. Why this repo exists
-
-I'm a CS student learning how agentic tooling actually works under the hood —
-not just "run this command." These notes are the output of that process:
-raw course material, restructured, corrected where needed, kept as reference.
-
-Not a tutorial. Not authoritative. Just my notes, kept honest.
+They are personal notes, not a tutorial. I check claims against the official
+docs and mark anything I could not verify.
